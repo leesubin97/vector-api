@@ -12,3 +12,10 @@ BERT 임베딩 변환 API이다. bert-base-uncased 모델을 사용, 기본 768�
 ```
 ### api 정보
  - url : http://실행ip정보:5000 (POST)
+ - resquest body  
+   ```
+   
+   {
+  "vector": "test data"
+    }
+   ```
